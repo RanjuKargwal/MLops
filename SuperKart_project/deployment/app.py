@@ -30,16 +30,16 @@ Store_Type = st.selectbox("Store_Type", ["Departmental Store", "Food Mart", "Sup
 # Prepare input data
 # ----------------------------
 input_data = pd.DataFrame([{
-    'Product_Weight'  = Product_Weight,
-    'Product_Sugar_Content'  = Product_Sugar_Content,
-    'Product_Allocated_Area'  = Product_Allocated_Area,
-    'Product_Type '  = Product_Type ,
-    'Product_MRP'  = Product_MRP,
-    'current_year'  = current_year,
-    'Store_Establishment_Year '  = Store_Establishment_Year ,
-    'Store_Size'  = Store_Size,
-    'Store_Location_City_Type '  = Store_Location_City_Type ,
-    'Store_Type'  = Store_Type
+    'Product_Weight'  : Product_Weight,
+    'Product_Sugar_Content'  : Product_Sugar_Content,
+    'Product_Allocated_Area'  : Product_Allocated_Area,
+    'Product_Type'  : Product_Type ,
+    'Product_MRP'  : Product_MRP,
+    'current_year'  : current_year,
+    'Store_Establishment_Year'  : Store_Establishment_Year ,
+    'Store_Size'  : Store_Size,
+    'Store_Location_City_Type'  : Store_Location_City_Type ,
+    'Store_Type'  : Store_Type
 }])
 
 # Predict button
